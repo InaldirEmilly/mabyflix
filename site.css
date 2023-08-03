@@ -1,0 +1,199 @@
+
+/*Criamos um Id chamado "topo" para inserir o título do nosso site*/
+#topo {
+	
+	width: 1365px;
+	background: red;
+	text-align: left;
+	border: 5px solid white;
+}
+
+/*Dentro do body inserimos o design do nosso site como: a fonte, o plano de fundo, o tamanho da imagem, para se repetir e etc*/
+body {
+	
+	margin: 0px;
+	padding: 0px;
+	font: 85% arial, hevetica, sans-serif;
+	color: #333;
+	background: #ddd;
+	background-image: url("fundoo.jpg");
+	background-repeat: repeat;
+	background-size: 1500px;
+	background-position: center;
+}
+
+/*Criamos a nossa tabela definimos o tamanho, borda e etc*/
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+/*Definimos a cor da coluna de título e colunas comuns*/
+th,td {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid red;
+	color: white;
+
+}
+
+/*Definimos a cor do fundo da coluna de título*/
+th {
+	background-color: red;
+}
+
+/*Definimos a fonte e a cor dos textos inseridos nas tags h1 e h3*/
+h1, h3 {
+	
+	font-family: 'Lora', serif;
+	color: white;
+}
+/*Definimos o tamanho da imagem*/
+#ryca{
+	width: 395px;
+	
+}
+
+/*Alteramos o tamanho da imagem quando passamos o mouse por cima, decidimos uma transição e uma opacidade*/
+#ryca:hover{
+	width: 405px;
+	transition: 0.5s ease-in-out;
+	opacity: 0.9;	
+}
+/*Definimos o tamanho da imagem*/
+#mae{
+	
+width: 468px;
+}
+/*Alteramos o tamanho da imagem quando passamos o mouse por cima, decidimos uma transição e uma opacidade*/
+#mae:hover {
+	width: 478px;
+	transition: 0.5s ease-in-out;
+	opacity: 0.9;
+	
+}
+/*Definimos o tamanho da imagem*/
+
+#calma{
+	
+	width: 350px;
+}
+/*Alteramos o tamanho da imagem quando passamos o mouse por cima, decidimos uma transição e uma opacidade*/
+#calma:hover{
+	width: 360px;
+	transition: 0.5s ease-in-out;
+	opacity: 0.9;
+	
+	
+}
+
+/*Definimos a cor do texto das categorias dos filmes*/
+#cor, #corr {
+	
+color: white;
+}
+/*Definimos o tamanho da imagem*/
+
+#amei {
+	width: 450px;
+
+}
+
+/*Definimos o tamanho da imagem*/
+#melhor{
+	
+	width: 335px;
+}
+/*Alteramos o tamanho da imagem quando passamos o mouse por cima, decidimos uma transição e uma opacidade*/
+#melhor:hover{
+	width: 345px;
+	transition: 0.5s ease-in-out;
+	opacity: 0.9;
+	
+}
+/*Definimos o tamanho da imagem*/
+
+#hora {
+	
+width: 450px;
+}
+
+/*Alteramos o tamanho da imagem quando passamos o mouse por cima, decidimos uma transição e uma opacidade*/
+#hora:hover {
+	width: 460px;
+	transition: 0.5s ease-in-out;
+	opacity: 0.9;
+	
+}
+/*Definimos o tamanho da imagem*/
+#panico {
+	width: 400px;
+}
+
+/*Alteramos o tamanho da imagem quando passamos o mouse por cima, decidimos uma transição e uma opacidade*/
+#panico:hover {
+	width: 410px;
+	transition: 0.5s ease-in-out;
+	opacity: 0.9;
+	
+}
+/*Definimos o tamanho da imagem*/
+#morte {
+	width: 400px;
+	
+}
+/*Alteramos o tamanho da imagem quando passamos o mouse por cima, decidimos uma transição e uma opacidade*/
+#morte:hover{
+	width: 410px;
+	transition: 0.5s ease-in-out;
+	opacity: 0.9;
+	
+}
+/*Definimos o tamanho da imagem*/
+
+#ritual {
+	width: 393px;
+}
+/*Alteramos o tamanho da imagem quando passamos o mouse por cima, decidimos uma transição e uma opacidade*/
+#ritual:hover {
+	width: 403px;
+	transition: 0.5s ease-in-out;
+	opacity: 0.9;
+	
+
+}
+
+/*Definimos o plano de fundo da página das sinopses*/
+#sinopse{
+	background-image: url("fundosinopse.png");
+	
+}
+
+/*Definimos o tamanho da imagem*/
+#amei {
+	width: 453px;
+}
+/*Alteramos o tamanho da imagem quando passamos o mouse por cima, decidimos uma transição e uma opacidade*/
+#amei:hover{
+	width: 463px;
+	transition: 0.5s ease-in-out;
+	opacity: 0.9;
+	
+}
+
+/*Criamos um botão para ir na página das sinopses*/
+/*Tiarmos como se fosse um modelo de link*/
+/*colocamos uma cor*/
+#botao {
+	background-color: white;
+	border-radius: 50px;
+	color: red;
+	text-decoration: none;
+	padding: 5px;
+}
+
+/*Trocamos a cor do texto e a cor de fundo ao passar mouse*/
+#botao:hover{
+	background-color: red;
+	color:white;
+}
